@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box ;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+p{font-size: 1.25em;}
+li{font-size: 1.25em ;}
+ul{list-style: none;}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.color-acento{color:#2C3E50;}
+
+header{
+    background-color: rgb(177, 181, 216);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #181952;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: #9273B3;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90hv;
+    margin: 0;
+    padding: 15%;
+    background-image: linear-gradient(
+        0deg, 
+        rgba(82, 82, 82, 0.5),
+        rgba(71, 71, 71, 0.5)
+    )
+    ,url("img1.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#heroh1{
+    color:white;
+}
+#sobremi{
+    background-color:#fcf9f2;
+    text-align: center;
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+#sobremi .container{
+    text-align: center;
+    padding: 150px 12px;
+}
+#sobremi .texto h2 {
+    text-align: center; 
+    margin: 0 auto; 
+}
+#sobremi .texto p {
+    text-align: justify; 
+    margin: 50px auto; 
+}
+
+
+#hobbies {
+    background-color: #EAE6F6 ;
+}
+
+#hobbies li {
+    margin: 16px 0px;
+    font-weight: bold;
+
+}
+#hobbies .container{
+    text-align: center;
+    list-style: none;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 12px;
+
+}
+
+#tareas {
+    background-color: #fcf9f2;
+}
+
+#tareas li {
+    margin: 16px 0px;
+    font-weight: bold;
+
+
+}
+#tareas .container{
+    text-align: center;
+    list-style: none;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 12px;
+
+}
+#horario {
+    background-color:#D6E4E5;
+    text-align: center;
+    padding: 105px 100px 105px 100px ;
+    box-sizing: border-box;
+}
+
+
+#horario .container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    padding: 20px; 
+    box-sizing: border-box;   
+    margin: 10px auto; 
+    max-width: 90%; 
+    overflow-x: auto; 
+    box-sizing: border-box; 
+}
+
+#horario table {
+    border-collapse: collapse; 
+    width: 100%; 
+    max-width: 100%; 
+    overflow-x: auto;
+}
+
+#horario th, #horario td {
+    padding: 8px; 
+    border: 1px solid #000000; 
+    text-align: center; 
+    word-wrap: break-word; 
+
+}
+
+#horario thead {
+    background-color: #f4f4f4; 
+}
+
+#contacto {
+    background-color: #fcf9f2;
+    text-align: center;
+    margin: 0; 
+    padding: 150px 12px ; 
+    box-sizing: border-box; 
+}
+
+
+#contacto h2 {
+    margin: 0;
+    padding: 16px 0;
+    color: #162749;
+}
+
+
+#contacto .container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+form {
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    padding: 50px 30px 60px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+fieldset {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #C9DEDF;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #a5b5ff;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+}
+
+footer {
+    background-color: #d3cdcd; 
+    color: #857b7b;
+    text-align: center;
+    padding: 10px 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.9em;
+}
+
+@media(min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #hero h1{
+        font-size: 4em;
+    }
+    #sobremi .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #sobremi .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #sobremi h2{
+        margin-top: 0px;
+    }
+
+    #sobremi .img-container{
+        background-image: url("img2.jpg");
+        background-size: cover;
+        background-position:center center ;
+        height: 500px;
+        width: 400px;
+        padding: 20 px;
+    }
+
+}
+

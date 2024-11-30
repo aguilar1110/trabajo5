@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mipaginaweb</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Mi Sitio Web!</p>
+            <nav>
+                <a href="#sobremi">Sobre mi</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#tareas">Tareas</a>
+                <a href="#horario">Horario</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Mi primer sitio web <br>Con estilo </h1>
+    </section>
+
+    <section id="sobremi">
+        <div class="container">
+            <div class="img-container"></div>
+                <div class="texto">
+                    <h2><span class="color-acento">Sobre mi</h2>
+             <p>Mi nombre es Maria Fernanda, nací en el año 2003 en la ciudad de Cali, desde muy pequeña, siempre me ha gustado aprender cosas
+                nuevas y desafiarme a mí misma cuando las cosas se me complican. Soy bastante perfeccionista y me encanta destacar en lo que hago.
+                La actividad física siempre ha sido una parte importante de mi vida. Disfrutaba mucho jugar fútbol, voleibol y baloncesto. 
+                Actualmente, mi rutina de ejercicio se centra en el gimnasio, donde puedo trabajar en diferentes áreas de mi condición física.
+                Creo que estas pasiones me han ayudado a ser una persona más disciplinada, constante y consciente de que todos los objetivos se alcanzan 
+                con dedicación y constancia. Cada meta es un proceso que requiere esfuerzo y perseverancia.</p>
+                </div>
+        </div>
+    </section>
+    <section id="hobbies">
+        <div class="container">
+            <div class="img-container1"></div> 
+            <h2><span class="color-acento">Hobbies</h2>
+            <ul>
+                <li>✔️​Ir al gimnacio</li>
+                <li>✔️​Ver películas</li>
+                <li>✔️​Salir a caminar</li>
+                <li>✔️​Viajar</li>
+                <li>✔️​Comer hamburguesa</li>
+                <li>✔️​Leer</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="tareas">
+        <div class="container">
+            <div class="img-container"></div>
+            <h2><span class="color-acento">Tareas</h2>
+            <ol>
+                <li>Hacer trabajos</li>
+                <li>Hacer el almuerzo</li>
+                <li>Finalizar el curso</li>
+                <li>Hacer ejercicio</li>
+                <li>Sacar a mi mascota</li>
+                <li>Hacer aseo</li>
+              </ol>
+        </div>
+    </section>
+
+    <section id="horario">
+        <h2><span class="color-acento">Horario</h2>
+        <div class="container">
+            <div class="img-container"></div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Curso de programación</td>
+                        <td>Curso de programación</td>
+                        <td>Curso de programación</td>
+                        <td>Curso de programación</td>
+                        <td>Curso de programación</td>
+                        <td>Descanso</td>
+                        <td>Descanso</td>
+                    </tr>
+                    <tr>
+                        <td>Siesta</td>
+                        <td>Ir a la universidad</td>
+                        <td>Siesta</td>
+                        <td>Ir a la universidad</td>
+                        <td>Hacer trabajos</td>
+                        <td>Salir a comer</td>
+                        <td>Ver películas</td>
+                    </tr>
+                    <tr>
+                        <td>Ir al gimnasio</td>
+                        <td>Terminar semestre</td>
+                        <td>Ir al gimnasio</td>
+                        <td>Terminar semestre</td>
+                        <td>Ir al gimnasio</td>
+                        <td>Ir a piscina</td>
+                        <td>Salir de paseo</td>
+                    </tr>
+                    <tr>
+                        <td>Hacer aseo</td>
+                        <td>Hacer aseo</td>
+                        <td>Hacer aseo</td>
+                        <td>Hacer aseo</td>
+                        <td>Finalizar el curso</td>
+                        <td>Hacer aseo</td>
+                        <td>Hacer aseo</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section id="contacto">
+        <h2><span class="color-acento">Formulario de contacto</h2>
+        <div class="container">
+            <form class="formulario" onsubmit="return index()">
+             
+                <label>Nombre: </label> 
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+        
+                <label>Motivo de contacto: </label> 
+                <input type="text" id="contacto1" name="contacto1" placeholder="Ingresa el motivo de contacto">
+        
+                <label>Correo electrónico: </label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
+        
+                <button type="submit">Enviar</button>
+        
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+        <p>Mi página web 2024</p>
+        </div>
+    </footer>
+
+</body>
+</html>
